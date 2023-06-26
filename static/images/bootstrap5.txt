@@ -1,0 +1,14 @@
+Bootstrap containers
+- Important and basic layout element in Bootstrap
+- There are two types of containers
+    - <div class="container"></div>     //fixed width
+    - <div class="container-fluid"></div>       //100% width of the screen size
+
+Bootstrap Grid
+- Design layout and templates of the website
+- Breaks in 12 columns in a row
+    - col-3     //breaks 12 columns into 12/3= 4 parts in all types of screens
+- We can also build multiple rows through this
+- Supports different screen resolution which can be syntaxed as xs,sm,mg,lg,xl
+    - col-sm-4      //breaks 12 columns into 12/4=3 parts in small size screens i.e phones/tablets
+    - col-6 col-sm-2        //breaks 12 columns into 12/6=2 parts in all views but in small view,breaks into 12/2=6 parts.

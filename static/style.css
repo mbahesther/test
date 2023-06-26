@@ -1,0 +1,249 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.brand-card{
+  padding-top: 3vw;
+}
+.brand-card-main{
+  margin-bottom: 3vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.brand-card-main h3{
+  font-family:'Ubuntu Condensed', sans-seriff;
+ margin-top: 2vw;
+opacity: 80%;}
+.btn-outline-dark{
+  color: black;
+  border-color: black;
+  outline: none;
+  transition: all 1s;
+}
+.btn-outline-dark:hover{
+  color: white;
+  background: black;
+  border: black;
+}
+.btn1{
+  background-color: rgba(0, 0, 0, 0.849);
+  color: white;
+  position: relative;
+  width: 14.5vw;
+  height: 4.4vw;
+  font-size: 2.8vw;
+  margin-top: 4.8vh;
+  transition: all 50ms ;
+}
+
+.btn1:hover{
+  transform: scale(1.02);
+  background-color: black ;
+  cursor: pointer;
+}
+.cards{
+  transform: scale(1);
+  transition: all 0.5s ease-out;
+}
+.cards:hover{
+ transform: scale(1.03);
+ cursor: pointer;
+}
+.discover{
+  padding-top: 4vw;
+  background-color: #f6f6f6;
+}
+.discover1{
+  cursor: pointer;
+  transition: all 0.4s;
+  transition-timing-function: ease-in;
+}
+.discover1:hover{
+  transform: scale(1.03);
+}
+.discover h6{
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 2rem;
+  padding-bottom: 4vw;
+}
+.exclusive{
+  display: flex;
+  align-items: center;
+  background-color: #e7e7e7;
+    padding-bottom: 2vw;
+    margin-bottom: 1vw;
+}
+.exclusive h1{
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+  margin-bottom: 1vw;
+}
+.exclusive h4{
+  font-family: 'Ubuntu Condensed', sans-serif;
+  padding-top: 2.8vw;
+}
+.exclusive h5{
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+.exclusive span{
+  font-family: 'Pacifico', cursive;
+}
+.footer{
+  background-color: black;
+  color: #dbd9d9;
+  padding: 2vw;
+}
+.footer h1{
+  font-family: 'Pacifico',cursive;
+}
+.footer-applinks{
+  display: flex;
+}
+.gucci{
+  margin-top:-16vw;
+  margin-bottom:-10vw;
+  object-fit:cover;
+  background-position:center;
+  width:50%;
+  height: auto;
+}
+.img-luid{
+  border-radius: 50%;
+}
+.main{
+  background-image: url('images/img7.jpg');
+  width: 100%;
+  height: 80vh;
+  background-position: 35% 20%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+@media screen and (min-width:1150px)
+{
+  .btn1{background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+    position: relative;
+    width: 14vw;
+    height: 3.6vw;
+    font-size: 2.2vw;
+    margin-top: 4.4vh;
+    transition: all 50ms ;
+  }
+}
+@media screen and (max-width:600px)
+{
+   .main{
+     height: 60vh;
+   }
+}
+@media screen and (max-width:900px)
+{
+   .main h1{
+     font-size: 15vw;
+     font-weight: 700;
+     color: white;
+   }
+}
+@media screen and (min-width:901px)
+{
+   .main h1{
+     font-size: 12vw;
+     font-weight: 700;
+     color: white;
+   }
+}
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 2.4rem;
+    color: #000000bb;
+    margin-left: 2.8%;
+}
+.navbar-brand:hover{
+  color: black;
+}
+.nav-item{
+    padding: 0.5vw 2rem;
+    transition: color 5s;
+    border-bottom: 0.1vw solid transparent;
+}
+.nav-item:hover{
+border-bottom: 0.1vw solid black;
+}
+.nav-link{
+  color: black;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  font-size: 1.2rem;
+  
+}
+.nav-link:hover,.nav-link:focus,.nav-link:active{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.795);
+}
+.navbar-nav{
+  margin: 0 0.8rem;
+}
+.products{
+  padding-top: 3.6vw;
+  margin-right: 1vw;
+  margin-bottom: 1vw;
+}
+.products h6{
+  color: rgba(0, 0, 0, 0.685);
+  margin-bottom: 0;
+}
+.reviews{
+  padding-left: 1vw;
+  padding-right: 1vw;
+  margin-bottom: 2vw;
+}
+.reviews p{
+  padding-top: 1.2vw;
+  margin: auto;
+  width: 85%;
+}
+.review-card{
+  background-color: #f6f6f6;
+  margin-top: 1vw;
+  height: 68vh;
+  border-right: 1vw solid white;
+  border-left: 1vw solid white;
+}
+.review-card .circle{
+  font-size: 4vw;
+  margin-top: 3vw;
+}
+.review-card h2{
+  font-size: 1.4vw;
+  margin-top: 1vw;
+  margin-bottom: 0.5vw;
+}
+
+.review-card h6{
+  font-size: 1vw;
+}
+.review-card .star{
+  font-size: 1.32vw;
+}
+@media screen and (max-width:768px)
+{
+  .review-card{
+    border-left: 3vw solid white;
+    border-right: 3vw solid white;
+    height: 40vh;
+  }
+  .review-card .circle{
+    font-size: 5vw;
+    margin-top: 3vw;
+  }
+  .review-card h2{
+    font-size: 3vw; 
+    margin-bottom: -1vw;
+  }
+  .review-card h6{
+    font-size: 2.5vw;
+  }
+}

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="men clothes, women clothes, skirt, shirt" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Pacifico&family=Poiret+One&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename ='style.css') }}">
+    <title>Delta Liquor Land</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg" style="border: 0.01vw solid rgba(0, 0, 0, 0.212); background-color: white;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="{{url_for('index') }}">street</a>
+      <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+        <span class="navbar-toggler-icon navbar-dark"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">New</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Men</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Women</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Tops</a></li>
+              <li><a class="dropdown-item" href="#">Bottoms</a></li>
+              <li><a class="dropdown-item" href="#">Shoes</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{url_for('contact') }}">Contact us</a>
+          </li>
+        </ul>
+        
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <section class="main">
+    <center><h1>Clothes for the elites.</h1></center>
+    <center><div class="btn1">
+      Explore
+    </div></center>
+  </section>
+  <section class="discover">
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-4 text-center discover1">
+          <img src="static/images/tops.jpg" class="img-luid" alt="trouser">
+          <h6>Top</h6>
+        </div>
+        <div class="col-lg-4 text-center discover1">
+          <img src="static/images/bottoms.jpg" class="img-luid">
+          <h6>Bottoms</h6>
+        </div>
+        <div class="col-lg-4 text-center discover1" >
+          <img src="static/images/shoes.jpg" class="img-luid">
+          <h6>Shoes</h6>
+        </div>
+  </div>
+  </section>
+  <section class="products">
+    <div class="row">
+        <div class="col-12 text-center" style="padding-bottom: 2vw;">
+          <h1>TRENDING RIGHT NOW</h1>
+        </div>
+        <div class="col-lg-3 col-md-4 text-center cards">
+          
+          <img src="static/images/t5.jpg" width="200" height="260" style=" margin-bottom: 0.5vw;">
+          <h6>Superhero T-shirt</h6>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+          <p>Rs. 499</p>
+        </div>
+        <div class="col-lg-3 col-md-4 text-center cards">
+          <img src="static/images/t2.jpg" width="200" height="260" style=" margin-bottom: 0.5vw;">
+          <h6>Bomber Jacket</h6>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <p>Rs. 1999</p>
+        </div>
+        <div class="col-lg-3 col-md-4 text-center cards">
+          <img src="static/images/t3.jpg" width="200" height="260" style=" margin-bottom: 0.5vw;">
+          <h6>Solid T-shirt</h6>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+          <p>Rs. 299</p>
+        </div>
+        <div class="col-lg-3 col-md-4 text-center cards">
+          <img src="static/images/t6.jpg" width="200" height="260" style=" margin-bottom: 0.5vw;">
+          <h6>Eco-friendly Shirt</h6>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <p>Rs. 799</p>
+        </div>
+      <div class="col-lg-3 col-md-4 text-center cards">
+        
+        <img src="static/images/product-8.jpg" width="200" height="260" style=" margin-bottom: 0.5vw;">
+        <h6>Fossil Watch</h6>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+        <p>Rs. 9999</p>
+      </div>
+      <div class="col-lg-3 col-md-4 text-center cards">
+        <img src="static/images/product-10.jpg" width="200" height="260" style=" margin-bottom: 0.5vw;">
+        <h6>HRX Shoes</h6>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+        <p>Rs. 1999</p>
+      </div>
+      <div class="col-lg-3 col-md-4 text-center cards">
+        <img src="static/images/product-7.jpg" width="200" height="260" style=" margin-bottom: 0.5vw;">
+        <h6>HRX Socks</h6>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+        <i class="fa fa-star-o"></i>
+        <p>Rs. 299</p>
+      </div>
+      <div class="col-lg-3 col-md-4 text-center cards">
+        <img src="static/images/product-12.jpg" width="200" height="260" style=" margin-bottom: 0.5vw;">
+        <h6>Nike Joggers</h6>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+        <p>Rs. 799</p>
+      </div>
+  </section>
+  <section class="exclusive">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="text-center" style="overflow: hidden;">
+           <img src="static/images/guccibag.gif" class="gucci" width="600"height="600">
+           <h4>Towards the sun</h4>
+           <h1>Gucci Horsebit 1955 small shoulder bag</h1>
+           <h5>Exclusive on <span>Streetwear</span></h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="reviews">
+    <div class="container-fluid">
+    <div class="row">
+    <div class="col-lg-4 col-md-4 text-center review-card" style="background-color:#f7f7f7;">
+      <i class="fa fa-quote-left" style="padding-top: 2vw; font-size: 3rem;"></i>
+      <br>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure tenetur, 
+      unde repudiandae delectus rem, voluptatum eligendi nam, 
+      repellat optio molestiae quis doloremque veniam dolores. Adipisci odio facere facilis culpa laboriosam.</p>
+      <i class="fa fa-user-circle circle"></i>
+      <h2>Gaurav Arora</h2>
+      <i class="fa fa-star star"></i>
+          <i class="fa fa-star star"></i>
+          <i class="fa fa-star star"></i>
+          <i class="fa fa-star star"></i>
+          <i class="fa fa-star star"></i>
+      <h6>Noida</h6>
+    </div>
+    <div class="col-lg-4 col-md-4 text-center review-card" style="background-color:#f7f7f7;">
+      <i class="fa fa-quote-left" style="padding-top: 2vw; font-size: 3rem;"></i>
+      <br>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure tenetur, 
+      unde repudiandae delectus rem, voluptatum eligendi nam, 
+      repellat optio molestiae quis doloremque veniam dolores. Adipisci odio facere facilis culpa laboriosam.</p>
+      <i class="fa fa-user-circle circle"></i>
+      <h2>Suresh Patil</h2>
+      <i class="fa fa-star star"></i>
+      <i class="fa fa-star star"></i>
+      <i class="fa fa-star star"></i>
+      <i class="fa fa-star star"></i>
+      <i class="fa fa-star star"></i>
+      <h6>Mumbai</h6>
+    </div>
+    <div class="col-lg-4 col-md-4 text-center review-card">
+      <i class="fa fa-quote-left" style="padding-top: 2vw; font-size: 3rem;"></i>
+      <br>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure tenetur, 
+      unde repudiandae delectus rem, voluptatum eligendi nam, 
+      repellat optio molestiae quis doloremque veniam dolores. Adipisci odio facere facilis culpa laboriosam.</p>
+      <i class="fa fa-user-circle circle"></i>
+      <h2>Dinesh Kumar</h2>
+      <i class="fa fa-star star"></i>
+      <i class="fa fa-star star"></i>
+      <i class="fa fa-star star"></i>
+      <i class="fa fa-star star"></i>
+        <i class="fa fa-star-half-o star"></i>
+      <h6>Delhi</h6>
+    </div>
+    </div>
+  </div>
+  </section>
+  <section class="brand-card-main">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 text-center"><h3>BRAND PARTNERS</h3></div>
+        <div class="col-lg-3 col-md-3 text-center brand-card">
+          <img src="static/images/gucci.png" width="100" height="67">
+        </div>
+        <div class="col-lg-3 col-md-3 text-center brand-card">
+          <img src="static/images/adidas.png" width="100" height="67">
+        </div>
+        <div class="col-lg-3 col-md-3 text-center brand-card">
+          <img src="static/images/nike.png"width="100" height="67">
+        </div>
+        <div class="col-lg-3 col-md-3 text-center brand-card">
+          <img src="static/images/dior.png" width="100" height="67">
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer"> 
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3 col-md-4 footer-col-1">
+        <h3>Download our app</h3>
+        <p>Download app for android and IOS phones.</p>
+        <div class="footer-applinks">
+        <img src="static/images/play-store.png"style="width: 40%;margin-right :0.75vw;">
+        <img src="static/images/app-store.png" style="width: 40%">
+        </div>
+        </div>
+        <div class=" col-lg-3 col-md-4 footer-col-2 text-center">
+          <h1>Streetwear</h1>
+          <p style="color: rgb(158, 157, 157); font-family:'Poiret One', cursive">The Place for street fashion</p>
+          </div>
+          <div class="col-lg-3 col-md-4 footer-col-3 text-center">
+            <h3>Useful links</h3>
+              <a href="#">Coupons</a><br>
+              <a href="#">Blog Post</a><br>
+              <a href="#">Return Policy</a><br>
+              <a href="#">Join affiliate</a><br>
+              <a href="#">Contact us</a><br>
+                  <a href="#">Q&A</a><br>
+                  <a href="#">Report an issue</a><br>
+                  <a href="#">Payment options</a><br>
+            </div>
+            <div class="col-lg-3 col-md-4 footer-col-4 text-center">
+              <h3>Follow us</h3>
+                <a href="#">Facebook</a><br>
+                <a href="#">Instagram</a><br>
+                <a href="#">Twitter</a><br>
+                <a href="#">Youtube</a><br>
+                <a href="#">Snapchat</a><br>
+                <a href="#">Pinterest</a><br>
+              </div>
+      </div>
+    </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="streetwear.js"></script>
+</body>
+</html>
